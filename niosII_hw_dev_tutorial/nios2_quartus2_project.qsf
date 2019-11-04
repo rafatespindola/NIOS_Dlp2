@@ -28,7 +28,7 @@
 set_global_assignment -name SMART_RECOMPILE ON
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 5.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:30:26  DECEMBER 11, 2004"
-set_global_assignment -name LAST_QUARTUS_VERSION 11.0
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
 set_global_assignment -name BDF_FILE nios2_quartus2_project.bdf
 set_parameter -name MRAM_BYTEENA_LATCH ON
 
@@ -41,12 +41,12 @@ set_parameter -name MRAM_BYTEENA_LATCH ON
 # Analysis & Synthesis Assignments
 # ================================
 set_global_assignment -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "<None>"
-set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name TOP_LEVEL_ENTITY nios2_quartus2_project
 
 # Fitter Assignments
 # ==================
-set_global_assignment -name DEVICE EP3C120F780C7
+set_global_assignment -name DEVICE Auto
 set_global_assignment -name STRATIX_CONFIGURATION_SCHEME "FAST PASSIVE PARALLEL"
 set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "USE AS REGULAR IO"
 
@@ -75,3 +75,4 @@ set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
 set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name BDF_FILE "../../../Ãrea de trabalho/NIOS_Dlp2/niosII_hw_dev_tutorial/nios2_quartus2_project.bdf"

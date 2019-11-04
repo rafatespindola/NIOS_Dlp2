@@ -3,10 +3,17 @@
  <debug showDebugMenu="0" />
  <systemtable filter="All Interfaces">
   <columns>
-   <connections preferredWidth="127" />
+   <connections preferredWidth="143" />
    <irq preferredWidth="34" />
+   <export preferredWidth="125" />
+   <baseaddress preferredWidth="30" />
+   <endaddress preferredWidth="30" />
+   <tags preferredWidth="30" />
+   <opcodeName preferredWidth="30" />
+   <inputclock preferredWidth="69" />
   </columns>
  </systemtable>
- <library expandedCategories="Library,Project" />
+ <library expandedCategories="Project,Library" />
  <window width="1610" height="857" x="-5" y="24" />
+ <generation synthesis="VHDL" />
 </preferences>
